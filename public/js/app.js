@@ -1,7 +1,7 @@
 //Set Up function to return Weather for the Loaction
 function SubmitForm(searchTerm,callback)
 {
-const geocodeURL=`http://localhost:3000/weather?address=${searchTerm}`;
+const geocodeURL=`/weather?address=${searchTerm}`;
 fetch(geocodeURL)
 .then(response=>response.json().
 then(
