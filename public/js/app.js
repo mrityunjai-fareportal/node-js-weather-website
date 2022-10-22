@@ -1,7 +1,3 @@
-
-console.log('Client side javascript file is loaded!')
-
-
 //Set Up function to return Weather for the Loaction
 function SubmitForm(searchTerm,callback)
 {
